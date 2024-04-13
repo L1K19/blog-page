@@ -1,0 +1,97 @@
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+/* .leftcolumn {
+    float: left;
+    width: 75%;
+  } */
+  
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    } */
+  /* } */
+    
+        /* icons */
+        .card-body>div {
+          display: flex;
+          flex-direction: row;
+          /* justify-content:space-evenly; */
+          align-items: center;
+          margin-bottom: 10px;
+          font-size: 23px;
+      }
+
+      .card-body>div>.bi-hand-thumbs-up {
+          margin-right: 12px;
+          color: black;
+      }
+
+      .card-body>div>.bi-hand-thumbs-up {
+          margin-right: 12px;
+          color: black;
+
+      }
+
+      .card-body>div>.bi-chat {
+          margin-right: 12px;
+      }
+
+      .card-body>div>.bi-send {
+          margin-right: auto;
+      }
+
+      #sns_urlCoby {
+          color: black;
+          margin-right: auto;
+      }
+
+      .card-body>div>.bi-bookmark {
+          color: black;
+      }
+
+      .card-body>div>.bi-bookmark-fill {
+          color: black;
+      }
+
+      .card-text {
+          font-size: 14px;
+          font-weight: 500;
+      }
+
+      /* comment */
+      .card-body div>input {
+        border: none;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+
+    .comment>i {
+        margin-top: 9px;
+        margin-right: 10px
+    }
+
+    .card-body div>button {
+        font-size: 15px;
+        color: rgb(136, 136, 220);
+
+        margin-top: 9px;
+        padding: 8px;
+
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0px;
+    }
